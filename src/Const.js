@@ -1,6 +1,8 @@
 module.exports = {
 	tex: {
 		wall: 'wall',
-		player: 'player'
+		player: 'player',
+		empty: 'empty',
+		none: 'none'
 	}
 };

@@ -17,7 +17,7 @@ window.onload = function(){
 	renderer = Pixi.autoDetectRenderer(800, 600);
 	document.body.appendChild(renderer.view);
 	input = new Pixi.interaction.InteractionManager(renderer);
-	input.keys = {};
+	input.keys = {left:new Key(37), right:new Key(39), up:new Key(38), down:new Key(40)};
 	loader = new Pixi.loaders.Loader('./assets/');
 	
 	stage = new Pixi.Container();
@@ -26,13 +26,6 @@ window.onload = function(){
 	hubLoad = new HubLoad(loader);
 	hubMain = new HubMain(loader);
 	hubGame = new HubGame(loader);
-	
-	loader.once('complete', function(){
-		if(state === 'load'){
-			endLoad();
-		}
-		startMain();
-	});
 	
 	var updatesPerSecond = 40;
 	updateDelta = 1000 / updatesPerSecond;
@@ -96,6 +89,10 @@ function update(){
 		
 		case 'load':
 			console.log(hubLoad.loadPercent);
+			if(hubLoad.loadPercent == 100){
+				endLoad();
+				startMain();
+			}
 		break;
 		
 		case 'main':
@@ -106,7 +103,11 @@ function update(){
 		break;
 		
 		case 'game':
-			
+			hubGame.update(input);
+			if(hubGame.toMain){
+				endGame();
+				startMain();
+			}
 		break;
 		
 		default:

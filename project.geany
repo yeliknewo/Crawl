@@ -28,11 +28,13 @@ current_page=6
 FILE_NAME_0=698;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Cgulpfile.js;0;4
 FILE_NAME_1=48;HTML;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Ccrawl.html;0;4
 FILE_NAME_2=48;HTML;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Ccrawl-dev.html;0;4
-FILE_NAME_3=743;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5Cmain.js;0;4
+FILE_NAME_3=549;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5Cmain.js;0;4
 FILE_NAME_4=452;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CHubLoad.js;0;4
-FILE_NAME_5=295;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CHubMain.js;0;4
-FILE_NAME_6=703;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CHubGame.js;0;4
-FILE_NAME_7=20;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CConst.js;0;4
+FILE_NAME_5=384;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CHubMain.js;0;4
+FILE_NAME_6=2023;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CHubGame.js;0;4
+FILE_NAME_7=573;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CEntity.js;0;4
+FILE_NAME_8=77;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CTile.js;0;4
+FILE_NAME_9=95;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Ccrawler%5Csrc%5CConst.js;0;4
 
 [build-menu]
 NF_00_LB=Build-D
